@@ -1,6 +1,11 @@
-# Getservices
+![banner](https://github.com/guxtavocesar/getservices/assets/120536902/65f63b22-9dd0-43da-ac12-0a1030a68f73)
+
+<h1>Getservices</h1>
+
+<p>
 Getservices é um projeto desenvolvido como um Trabalho de conclusão de curso.
 Visando faciltar a busca de prestadores de serviços na internet, o site utiliza de um banco de dados SQL simples e um sistema de pesquisa com back-end em PHP para exibir os prestadores disponíveis baseado - inicialmente - em sua profissão, além de utilizar as tecnologias de formatação front-end como HTML, CSS e Bootstrap para seu desenvolvimento.
+</p>
 
 <h2>Tecnologias utilizadas</h2>
 <li>HTML: Tecnologia de formatação, utilizada para criar e estruturar os componentes de cada página do projeto.</li>
@@ -15,5 +20,6 @@ A ferramenta de busca efetua uma listagem de prestadores do banco de dados que s
 <h2>Equipe de desenvolvimento</h2>
 A separação do grupo para o desenvolvimento do site e suas funcionalidades se estabeleceu como:<br><br>
 <li>Front-End: Guilherme Papa de Souza - João Pedro Salmazo Pitarelo</li>
-<li>Back-End: Gustavo César</li>
+<li>Back-End: Gustavo César</li><br><br>
 
+![banner](https://github.com/guxtavocesar/getservices/assets/120536902/a9825b04-789a-4cda-b9b4-194ed2f69981)
