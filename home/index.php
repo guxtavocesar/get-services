@@ -139,7 +139,7 @@ session_destroy();
           <p class="lead fs-4 my-5" style="text-align: justify;">Get Services é um projeto criado com o objetivo de facilitar a busca por profissionais voltados para trabalhos do cotidiano. Em um mundo tecnológico, a interação de clientes com seus prestadores é essêncial para atender com eficácia as demandas desse mercado. Então, com a necessidade em melhorar a busca e procura de prestadores, nasceu o projeto "GetServices", uma proposta simples, mas que sem dúvidas ajudará a área de prestação e procura de serviços.</p>
         </div>
         <div class="col-md-5">
-          <img src=".../css/imgs/logo.png" class="d-block mx-auto" alt="logo" width="100%" height="95%" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <img src="../css/imgs/logo.png" class="d-block mx-auto" alt="logo" width="100%" height="95%" preserveAspectRatio="xMidYMid slice" focusable="false">
         </div>
       </div>
       <!-- Fim 1° Container -->
