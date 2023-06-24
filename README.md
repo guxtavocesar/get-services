@@ -1,4 +1,4 @@
-![banner](https://github.com/guxtavocesar/getservices/assets/120536902/65f63b22-9dd0-43da-ac12-0a1030a68f73)
+![banner](https://github.com/guxtavocesar/getservices/assets/120536902/42878fc1-a838-4319-bbac-2806d5a3354e)
 
 <h1>Getservices</h1>
 
@@ -22,4 +22,4 @@ A separação do grupo para o desenvolvimento do site e suas funcionalidades se 
 <li>Front-End: Guilherme Papa de Souza - João Pedro Salmazo Pitarelo</li>
 <li>Back-End: Gustavo César</li><br><br>
 
-![banner](https://github.com/guxtavocesar/getservices/assets/120536902/a9825b04-789a-4cda-b9b4-194ed2f69981)
+![banner](https://github.com/guxtavocesar/getservices/assets/120536902/65b3a126-e9a2-45ac-9c43-87c0192bf58c)
