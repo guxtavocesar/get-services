@@ -10,7 +10,7 @@ Visando faciltar a busca de prestadores de serviços na internet, o site utiliza
 <h2>Tecnologias utilizadas</h2>
 <li>HTML: Tecnologia de formatação, utilizada para criar e estruturar os componentes de cada página do projeto.</li>
 <li>CSS: Tecnologia de estilização utilizada para implementar um estilo nos componentes do projeto.</li>
-<li>Bootstrap: Framework de HTML, CSS e JS utilizado para facilitar a aplicação das tecnologias de formatação e estilização no projeto.</li>
+<li>Bootstrap: Framework de componentes HTML, CSS e JS para implementar no projeto.</li>
 <li>MySQL: Sistema de gerenciamento de banco de dados em linguagem SQL.</li>
 <li>PHP: Linguagem Back-end executada em servidor que foi utilizada, principalmente, no processamento e requerimento de dados no projeto.</li>
 <h2> Funcionalidades</h2>
