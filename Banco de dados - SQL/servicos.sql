@@ -8,12 +8,12 @@ create table cliente_servicos
     senha varchar(30), 
     nome varchar(100), 
     email varchar(50), 
-    celular int(15), 
-    cpfcnpj varchar(20), 
+    celular int(9), 
+    cpfcnpj varchar(14), 
     nasc date, 
-    cidade varchar(100), 
+    cidade varchar(50), 
     uf char(2), 
-    ddd char(2)
+    ddd int(2)
 );
 
 create table prestador_servicos 
@@ -22,14 +22,14 @@ create table prestador_servicos
     senha varchar(30), 
     nome varchar(100), 
     nasc date, 
-    celular int(15), 
+    celular int(9), 
     email varchar(50), 
-    rg varchar(15), 
-    cpf varchar(20), 
+    rg varchar(9), 
+    cpf varchar(11), 
     profissao varchar(50), 
     carreira varchar(500), 
     cidade varchar(100), 
     uf char(2), 
-    ddd char(2)
+    ddd int(2)
 );
 
