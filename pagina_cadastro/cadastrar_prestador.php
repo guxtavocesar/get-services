@@ -29,7 +29,8 @@ if($row > 0){
 	exit;
 }
 
-$query = "insert into prestador_servicos (tipo_usuario, senha, nome, nasc, celular, email, rg, cpf, profissao, carreira, cidade, uf, ddd) values ('{$tipodeuser}', '{$senha}','{$nome}', '{$nasc}', '{$celular}', '{$email}', '{$rg}', '{$cpf}', '{$profissao}', '{$carreira}', '{$cidade}', '{$uf}', '{$ddd}')";
+$query = "INSERT INTO prestador_servicos (tipo_usuario, senha, nome, nasc, celular, email, rg, cpf, profissao, carreira, cidade, uf, ddd)
+		  VALUES ('{$tipodeuser}', '{$senha}','{$nome}', '{$nasc}', '{$celular}', '{$email}', '{$rg}', '{$cpf}', '{$profissao}', '{$carreira}', '{$cidade}', '{$uf}', '{$ddd}')";
 
 if($conexao->query($query) === TRUE){
 	$_SESSION['status_cadastro_p'] = true;

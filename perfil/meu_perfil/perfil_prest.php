@@ -8,7 +8,9 @@ if(!$_SESSION['user']) {
 }
 
 $email = $_SESSION["user"];
-$sql_query = "SELECT nome, celular, email, cidade, uf, profissao, carreira, ddd FROM prestador_servicos WHERE email = '$email'";
+$sql_query = "SELECT nome, celular, email, cidade, uf, profissao, carreira, ddd
+              FROM prestador_servicos WHERE email = '$email'";
+              
 $result = mysqli_query($conexao, $sql_query);
 
 $row = $result->fetch_row();

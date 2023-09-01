@@ -16,8 +16,6 @@ $uf = mysqli_real_escape_string($conexao, trim($_POST["uf"]));
 $ddd = mysqli_real_escape_string($conexao, trim($_POST["ddd"]));
 $celular = mysqli_real_escape_string($conexao, trim($_POST["celular"]));
 
-$conexao = mysqli_connect('localhost', 'root', '', 'servicos');
-
  $sql = "SELECT * FROM cliente_servicos WHERE email = '$email'";
  $result = mysqli_query($conexao, $sql);
  $row = mysqli_fetch_assoc($result);
@@ -28,10 +26,11 @@ $conexao = mysqli_connect('localhost', 'root', '', 'servicos');
  	exit;
  }
 
-$query = "insert into cliente_servicos (tipo_usuario, senha, nome, email, cpfcnpj, nasc, cidade, uf, ddd, celular) values ('{$tipouser}', '{$senha}','{$nome}', '{$email}', '{$cpf}', '{$nasc}', '{$cidade}', '{$uf}', '{$ddd}', '{$celular}')";
+$query = "INSERT INTO cliente_servicos (tipo_usuario, senha, nome, email, cpfcnpj, nasc, cidade, uf, ddd, celular)
+		  VALUES ('{$tipouser}', '{$senha}','{$nome}', '{$email}', '{$cpf}', '{$nasc}', '{$cidade}', '{$uf}', '{$ddd}', '{$celular}')";
 
  if($conexao->query($query) === TRUE){
- 	$_SESSION['status_cadastro'] = true;
+ 	$_SESSION['status_cadastro'] = TRUE;
  }
 
 mysqli_close($conexao);

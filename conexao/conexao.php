@@ -1,3 +1,9 @@
 <?php
-$conexao = mysqli_connect('localhost', 'root', '', 'servicos');
+
+$host = 'localhost';
+$user = 'root';
+$password = '';
+$database = 'servicos';
+
+$conexao = mysqli_connect($host, $user, $password, $database);
 ?>

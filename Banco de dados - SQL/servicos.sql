@@ -2,34 +2,34 @@
 
 CREATE DATABASE servicos;
 
-create table cliente_servicos 
+CREATE TABLE cliente_servicos 
 (
-    tipo_usuario varchar(11), 
-    senha varchar(30), 
-    nome varchar(100), 
-    email varchar(50), 
-    celular int(9), 
-    cpfcnpj varchar(14), 
-    nasc date, 
-    cidade varchar(50), 
-    uf char(2), 
-    ddd int(2)
+    tipo_usuario VARCHAR(11), 
+    senha VARCHAR(30), 
+    nome VARCHAR(100), 
+    email VARCHAR(50), 
+    celular INT(15), 
+    cpfcnpj VARCHAR(20), 
+    nasc DATE, 
+    cidade VARCHAR(100), 
+    uf CHAR(2), 
+    ddd CHAR(2)
 );
 
-create table prestador_servicos 
+CREATE TABLE prestador_servicos 
 (
-    tipo_usuario varchar(11), 
-    senha varchar(30), 
-    nome varchar(100), 
-    nasc date, 
-    celular int(9), 
-    email varchar(50), 
-    rg varchar(9), 
-    cpf varchar(11), 
-    profissao varchar(50), 
-    carreira varchar(500), 
-    cidade varchar(100), 
-    uf char(2), 
-    ddd int(2)
+    tipo_usuario VARCHAR(11), 
+    senha VARCHAR(30), 
+    nome VARCHAR(100), 
+    nasc DATE, 
+    celular INT(15), 
+    email VARCHAR(50), 
+    rg VARCHAR(15), 
+    cpf VARCHAR(20), 
+    profissao VARCHAR(50), 
+    carreira VARCHAR(500), 
+    cidade VARCHAR(100), 
+    uf CHAR(2), 
+    ddd CHAR(2)
 );
 

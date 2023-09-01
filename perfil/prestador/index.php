@@ -9,7 +9,8 @@ if(!$_SESSION['user']) {
 
 $id = mysqli_real_escape_string($conexao, trim($_POST["id"]));
 
-$sql_code = "SELECT id, nome, profissao, carreira, celular, email, ddd FROM prestador_servicos WHERE id = '$id'";
+$sql_code = "SELECT id, nome, profissao, carreira, celular, email, ddd
+             FROM prestador_servicos WHERE id = '$id'";
 $result = mysqli_query($conexao, $sql_code);
 
 $row = $result->fetch_row();
@@ -63,7 +64,7 @@ $row = $result->fetch_row();
                             <div class="col-lg-12 my-1 p-5 border border-outline-white rounded-5">
                                 <div class="row align-items-center">
                                     <div class="col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center">
-                                        <img style="width: 340px; object-fit:cover;" src="../../css/imgs/user-teste.png" alt="...">
+                                        <img style="width: 340px; object-fit:cover;" src=".../css/imgs/user-teste.png" alt="...">
                                     </div>
                                     <div class="col-lg-6 px-xl-10">
                                         <div class="bg-secondary d-lg-inline-block py-1-9 px-1-9 px-sm-6 mb-1-9 rounded">

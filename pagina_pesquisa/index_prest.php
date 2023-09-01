@@ -17,12 +17,6 @@ include('../logout/verifica_login.php');
   <script src="../css/js/bootstrap.js"></script>
   <script src="../css/js/bootstrap.bundle.js"></script>
 
-<style>
-  body{
-    background-color: black;
-  }
-</style>
-
 </head>
 
 <body>
@@ -107,9 +101,13 @@ include('../logout/verifica_login.php');
         
         <?php
               }
-      }else{
+      } else {
+
       $pesquisa_prof = mysqli_real_escape_string($conexao, $_GET['pesquisa']);
-      $sql_code = "SELECT nome, profissao, carreira, celular, email, id, ddd FROM prestador_servicos WHERE profissao LIKE '%".$pesquisa_prof."%'";
+
+        $sql_code = "SELECT nome, profissao, carreira, celular, email, id, ddd
+                     FROM prestador_servicos WHERE profissao LIKE '%".$pesquisa_prof."%'";
+
       $result = mysqli_query($conexao, $sql_code);
 
       
