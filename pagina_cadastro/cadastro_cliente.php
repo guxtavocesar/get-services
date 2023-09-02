@@ -99,7 +99,7 @@ session_start();
                             <label for="celular" style="float: left; font-size: 20px;">Celular</label>
                             <div class="field"><br><br>
                                 <div class="control">
-                                <input name="ddd" type="number" class="input is-large" style="width:26%" placeholder="DDD" required>
+                                <input name="ddd" maxlenght="2" type="number" class="input is-large" style="width:26%" placeholder="DDD" required>
                                 <input name="celular" type="number" class="input is-large" style="width:70%" placeholder="Celular" required>
                                 </div>
                             </div>

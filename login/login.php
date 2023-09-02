@@ -46,7 +46,7 @@ session_destroy();
   </header>
   [
   <!-- Fim Navegação -->
-  <section class="hero is-success is-fullheight" style="background-color: #252525;">
+  <section class="hero is-success is-fullheight" style="background-color: black;">
     <div class="hero-body">
       <div class="container has-text-centered">
         <div class="column is-4 is-offset-4">

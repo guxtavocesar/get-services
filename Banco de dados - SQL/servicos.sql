@@ -4,12 +4,13 @@ CREATE DATABASE servicos;
 
 CREATE TABLE cliente_servicos 
 (
+    id INTEGER auto_increment PRIMARY KEY,
     tipo_usuario VARCHAR(11), 
     senha VARCHAR(30), 
     nome VARCHAR(100), 
     email VARCHAR(50), 
-    celular INT(15), 
-    cpfcnpj VARCHAR(20), 
+    celular NUMBER(15), 
+    cpfcnpj VARCHAR(14), 
     nasc DATE, 
     cidade VARCHAR(100), 
     uf CHAR(2), 
@@ -18,14 +19,15 @@ CREATE TABLE cliente_servicos
 
 CREATE TABLE prestador_servicos 
 (
+    id INTEGER auto_increment PRIMARY KEY,
     tipo_usuario VARCHAR(11), 
     senha VARCHAR(30), 
     nome VARCHAR(100), 
     nasc DATE, 
     celular INT(15), 
     email VARCHAR(50), 
-    rg VARCHAR(15), 
-    cpf VARCHAR(20), 
+    rg VARCHAR(9), 
+    cpf VARCHAR(11), 
     profissao VARCHAR(50), 
     carreira VARCHAR(500), 
     cidade VARCHAR(100), 

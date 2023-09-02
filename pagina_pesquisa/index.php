@@ -153,10 +153,11 @@ include('../logout/verifica_login.php');
   </main>
   <!-- Rodapé -->
   <footer class="container">
-      <hr class="featuretter-divider text-white">
-        <p><a class="float-end btn btn-outline-light fs-5" style="background-color: #C9586C;" href="#">Voltar ao topo</a></p>
-          <p>&copy; 2022 - Services, Get. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
+            <hr class="featurette-divider">
+            <p><a class="float-end btn btn-outline-light fs-5" style="background-color: #C9586C;" href="#">Voltar ao
+                    topo</a></p>
+            <p style="color: #c9586c">&copy; 2022 - Services, Get.  <a href="#" style="color: #c9586c">Privacy</a> <a href="#" style="color: #c9586c">Terms</a></p>
+        </footer>
   <!-- Fim Rodapé -->
 
   <script src="js/bootstrap.bundle.min.js"> </script>

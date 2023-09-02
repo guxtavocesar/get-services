@@ -46,7 +46,7 @@ include('../conexao/conexao.php');
     </header>
     <!-- Fim Navegação -->
 
-    <section class="hero is-success is-fullheight" style="background-color: #252525;">
+    <section class="hero is-success is-fullheight" style="background-color: black;">
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="column is-4 is-offset-4">
@@ -91,7 +91,7 @@ include('../conexao/conexao.php');
             <hr class="featurette-divider">
             <p><a class="float-end btn btn-outline-light fs-5" style="background-color: #C9586C;" href="#">Voltar ao
                     topo</a></p>
-            <p>&copy; 2022 - Services, Get. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            <p style="color: #c9586c">&copy; 2022 - Services, Get.  <a href="#" style="color: #c9586c">Privacy</a> <a href="#" style="color: #c9586c">Terms</a></p>
         </footer>
     </section>
 

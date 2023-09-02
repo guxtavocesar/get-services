@@ -117,7 +117,7 @@ include('../logout/verifica_login.php');
       <!-- Fim barra de pesquisa -->
 
       <!-- Inicio area de informações prestador-->
-      <form action="../perfil/prestador/index.php" method="POST" id="<?php $row?>">
+      <form action="../perfil/prestador/index.php" method="POST" id="<?php $row[5]?>">
       <div class="row">
         <div class="col-lg-12 my-1 p-5 border border-outline-white rounded-5">
           <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -153,10 +153,11 @@ include('../logout/verifica_login.php');
   </main>
   <!-- Rodapé -->
   <footer class="container">
-    <hr class="featuretter-divider text-white">
-      <p><a class="float-end btn btn-outline-light fs-5" style="background-color: #C9586C;" href="#">Voltar ao topo</a></p>
-      <p style="color: #c9596c;">&copy; 2022 - Services, Get. &middot; <a href="#" style="color: #c9596c;">Privacy</a> &middot; <a href="#" style="color: #c9596c;">Terms</a></p>
-  </footer>
+            <hr class="featurette-divider">
+            <p><a class="float-end btn btn-outline-light fs-5" style="background-color: #C9586C;" href="#">Voltar ao
+                    topo</a></p>
+            <p style="color: #c9586c">&copy; 2022 - Services, Get.  <a href="#" style="color: #c9586c">Privacy</a> <a href="#" style="color: #c9586c">Terms</a></p>
+        </footer>
   <!-- Fim Rodapé -->
 
   <script src="js/bootstrap.bundle.min.js"> </script>

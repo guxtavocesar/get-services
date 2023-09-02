@@ -26,7 +26,6 @@ $result = mysqli_query($conexao, $sql_query);
     <script src="../../css/js/bootstrap.bundle.js"></script>
 
 </head>
-
 <body>
 
     <header>
@@ -57,15 +56,15 @@ $result = mysqli_query($conexao, $sql_query);
         <?php
         while ($row = $result->fetch_row()) {
             ?>
-        <section class="bg-gray" id="section">
+        <section class="bg-black" id="section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 mb-4 mb-sm-5">
                         <div class="card card-style1 border-5">
-                            <div class="col-lg-12 my-1 p-5 border border-outline-white rounded-5">
+                            <div class="col-lg-12 my-1 p-5 border border-outline-white rounded-0">
                                 <div class="row align-items-center">
                                     <div class="col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center">
-                                        <img style="width: 340px; object-fit:cover;" src="../../css/imgs/user-teste.png" alt="...">
+                                        <img style="width: 340px; object-fit:cover;" src="../../css/imgs/user.png" alt="...">
                                     </div>
                                     <div class="col-lg-6 px-xl-10">
                                         <div class="bg-secondary d-lg-inline-block py-1-9 px-1-9 px-sm-6 mb-1-9 rounded">

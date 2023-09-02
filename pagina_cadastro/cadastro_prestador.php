@@ -91,7 +91,7 @@ session_start();
                             <label for="nome" style="float: left; font-size: 20px;">Nome completo</label>
                             <div class="field">
                                 <div class="control">
-                                    <input name="nome" type="text" class="input is-large" placeholder="Nome completo" required>
+                                    <input name="nome" type="text" class="input is-large" placeholder="Nome completo" required maxlenght="5">
                                 </div>
                             </div>
                             <label for="nasc" style="float: left; font-size: 20px;">Nascimento</label>

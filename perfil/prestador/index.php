@@ -7,7 +7,7 @@ if(!$_SESSION['user']) {
 	exit();
 }
 
-$id = mysqli_real_escape_string($conexao, trim($_POST["id"]));
+$id = $_POST["id"];
 
 $sql_code = "SELECT id, nome, profissao, carreira, celular, email, ddd
              FROM prestador_servicos WHERE id = '$id'";
@@ -56,15 +56,15 @@ $row = $result->fetch_row();
     </header>
 
     <main>
-        <section class="bg-gray">
+        <section class="bg-black">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 mb-4 mb-sm-5">
                         <div class="card card-style1 border-5">
-                            <div class="col-lg-12 my-1 p-5 border border-outline-white rounded-5">
+                            <div class="col-lg-12 my-1 p-5 border border-outline-white">
                                 <div class="row align-items-center">
                                     <div class="col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center">
-                                        <img style="width: 340px; object-fit:cover;" src=".../css/imgs/user-teste.png" alt="...">
+                                        <img style="width: 340px; object-fit:cover;" src="../../css/imgs/user.png" alt="...">
                                     </div>
                                     <div class="col-lg-6 px-xl-10">
                                         <div class="bg-secondary d-lg-inline-block py-1-9 px-1-9 px-sm-6 mb-1-9 rounded">
@@ -76,6 +76,7 @@ $row = $result->fetch_row();
                                             <li class="mb-2 mb-xl-3 display-28"><span style="color: white; font-size: 150%;">Email: <?php echo "$row[5]"?></span></li>
                                             <li class="display-28"><span style="color: white; font-size: 150%;">Telefone: (<?php echo "$row[6]"?>) <?php echo "$row[4]"?></span></li>
                                         </ul>
+                                        
                                     </div>
                                 </div>
                             </div>
