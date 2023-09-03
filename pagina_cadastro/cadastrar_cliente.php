@@ -21,7 +21,7 @@ $celular = mysqli_real_escape_string($conexao, trim($_POST["celular"]));
  $row = mysqli_fetch_assoc($result);
 
  if($row > 0){
- 	$_SESSION['usuario_existe'] = true;
+ 	$_SESSION['usuario_existe'] = TRUE;
  	header('Location: cadastro_cliente.php');
  	exit;
  }

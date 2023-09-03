@@ -30,7 +30,7 @@ $result = mysqli_query($conexao, $sql_query);
 
     <header>
 
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: black;">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #C9586C;">
             <div class="container-fluid">
                 
                 <a class="navbar-brand" href="../../home/index.php">Get Services</a>
@@ -60,7 +60,7 @@ $result = mysqli_query($conexao, $sql_query);
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 mb-4 mb-sm-5">
-                        <div class="card card-style1 border-5">
+                        <div class="card card-style1 bg-black">
                             <div class="col-lg-12 my-1 p-5 border border-outline-white rounded-0">
                                 <div class="row align-items-center">
                                     <div class="col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center">

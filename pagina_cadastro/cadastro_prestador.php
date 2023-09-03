@@ -22,7 +22,7 @@ session_start();
 <body>
 
     <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: black;">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #C9586C;">
       <div class="container-fluid">
         <a class="navbar-brand" href="../home/index.php">Get Services</a>
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -44,7 +44,7 @@ session_start();
   </header>
     <!-- Fim Navegação -->
 
-    <section class="hero is-success is-fullheight" style="background-color: #252525;">
+    <section class="hero is-success is-fullheight" style="background-color: black;">
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="column is-4 is-offset-4">

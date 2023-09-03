@@ -24,7 +24,7 @@ include('../conexao/conexao.php');
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: black;">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #C9586C;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../home/index.php">Get Services</a>
                 <div class="collapse navbar-collapse" id="navbarCollapse">

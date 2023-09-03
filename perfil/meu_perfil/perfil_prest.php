@@ -35,7 +35,7 @@ $row = $result->fetch_row();
     <header>
 
 
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: black;">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #C9586C;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../../home/index.php">Get Services</a>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -61,8 +61,8 @@ $row = $result->fetch_row();
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 mb-4 mb-sm-5">
-                        <div class="card card-style1 border-5">
-                            <div class="col-lg-12 my-1 p-5 border border-outline-white rounded-5">
+                        <div class="card card-style1 bg-black">
+                            <div class="col-lg-12 my-1 p-5 border">
                                 <div class="row align-items-center">
                                     <div class="col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center">
                                         <img style="width: 340px; object-fit:cover;" src="../../css/imgs/user.png" alt="...">

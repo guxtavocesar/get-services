@@ -24,7 +24,7 @@ $result = mysqli_query($conexao, $sql);
 $row = mysqli_fetch_assoc($result);
 
 if($row > 0){
-	$_SESSION['usuario_existe_p'] = true;
+	$_SESSION['usuario_existe_p'] = TRUE;
 	header('Location: cadastro_prestador.php');
 	exit;
 }
@@ -33,7 +33,7 @@ $query = "INSERT INTO prestador_servicos (tipo_usuario, senha, nome, nasc, celul
 		  VALUES ('{$tipodeuser}', '{$senha}','{$nome}', '{$nasc}', '{$celular}', '{$email}', '{$rg}', '{$cpf}', '{$profissao}', '{$carreira}', '{$cidade}', '{$uf}', '{$ddd}')";
 
 if($conexao->query($query) === TRUE){
-	$_SESSION['status_cadastro_p'] = true;
+	$_SESSION['status_cadastro_p'] = TRUE;
 }
 
 mysqli_close($conexao);

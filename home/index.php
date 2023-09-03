@@ -37,7 +37,7 @@ session_destroy();
 
   <!-- Navegação -->
   <header position="relative">
-    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #black;">
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: black;">
       <div class="container-fluid">
         <a class="navbar-brand"  href="index.php" >Get Services</a>
         <div class="collapse navbar-collapse" id="navbarCollapse">
